@@ -1,0 +1,21 @@
+@import "vars";
+@import "mixins";
+@import "reset";
+@import "fonts";
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+body {
+    font-family: "TT Norms", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 100%;
+    color: $primary-txt;
+    background-color: $primary-bg;
+}
